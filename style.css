@@ -24,7 +24,9 @@ ul{
     width: 100%;
      display: flex; 
     align-items: center;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36, 0.5);
+    position: fixed; 
+    
 }
 
 
@@ -73,11 +75,134 @@ ul{
 }
 
 .pic-2{
-    background-image: url(./assets/WhatsApp\ Image\ 2026-06-09\ at\ 7.23.36\ PM.jpeg);
-    height: 590px;
+    background-image: url(./assets/iphone17.jpeg);
+    height: 700px;
     width: 100%;
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.pic-2-text{
+    color: white;
+    text-align: center;
+
+}
+
+.pic-2-text > h1{
+    font-size: 4em;
+    font-family: sans-serif;
+    
+}
+
+.pic-2-text > p{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.pic-2-text > button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: large; 
+}
+
+.pic-2-text > .btn-1{
+    color: white;
+    background-color:rgb(5, 180, 250);
+    border: none;
+    margin-right:5px;
+}
+
+.pic-2-text > .btn-2{
+    color:rgb(3, 106, 146);
+    border-color: white;
+    background-color: black;
+}
+
+.pic-3{
+     background-image: url(./assets/);
+    height: 700px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-3{
+     background-image: url(./assets/WhatsApp\ Image\ 2026-06-09\ at\ 7.23.36\ PM.jpeg);
+    height: 700px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pic-3-text{
+    color:black;
+    text-align: center;
+
+}
+
+.pic-3-text > h1{
+    font-size: 4em;
+    font-family: sans-serif;
+    
+}
+
+.pic-3-text > p{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.pic-3-text > button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: large; 
+}
+
+.pic-3-text > .btn-1{
+    color: white;
+    background-color:rgb(5, 180, 250);
+    border: none;
+    margin-right:5px;
+}
+
+.pic-3-text > .btn-2{
+    color:rgb(5, 5, 5);
+    border-color: rgb(7, 7, 7);
+    background-color: rgb(250, 248, 248);
+}
+
+.row-pic{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.row-pic-1{
+    background-image: url(./assets/promo_college_students_2026__b8cb1kmdv32a_small_2x.jpg);
+    height:500px ;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-pic-2{
+    background-image: url(./assets/macbook.jpeg);
+    height: 500px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
 
