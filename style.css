@@ -40,7 +40,7 @@ ul{
     display: flex;
     justify-content:center;
     align-items: flex-end;
-    border-bottom: 3px solid white;
+    /* border-bottom: 3px solid white; */
     
 
 }
@@ -183,7 +183,7 @@ ul{
 
 .row-pic-1{
     background-image: url(./assets/promo_college_students_2026__b8cb1kmdv32a_small_2x.jpg);
-    height:500px ;
+    height:600px;
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,11 +191,176 @@ ul{
 
 .row-pic-2{
     background-image: url(./assets/macbook.jpeg);
-    height: 500px;
+    height: 600px;
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.row-pic-1-text{
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+.row-pic-1-text > h1{
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+
+.row-pic-1-text > p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.row-pic-1-text > .btn-1{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(5, 180, 250);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-pic-2-text{
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+.row-pic-2-text > h1{
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+
+.row-pic-2-text > p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.row-pic-2-text > .btn-1{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(5, 180, 250);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-pic-2-text > .btn-2{
+    padding: 10px 15px;
+    color: rgb(17, 17, 17);
+    background-color:rgb(250, 252, 253);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-picture-2{
+     display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.row-child-1{
+    background-image: url(./assets/watch11.jpeg);
+    height:600px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.row-child-2{
+    background-image: url(./assets/macbookair.jpeg);
+    height:600px;
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-child-1-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.row-child-1-text > img{
+    width: 50%;
+}
+
+.row-child-1-text > p{
+    font-size: 1.5em;
+}
+
+.row-child-1-btn > .btn-1{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(5, 180, 250);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-child-1-btn > .btn-2{
+     padding: 10px 15px;
+    color: rgb(17, 17, 17);
+    background-color:rgb(250, 252, 253);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-child-2-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.row-child-2-text > p{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.row-child-2-btn > .btn-1{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(5, 180, 250);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-child-2-btn > .btn-2{
+     padding: 10px 15px;
+    color: rgb(17, 17, 17);
+    background-color:rgb(250, 252, 253);
+    font-size: large;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
