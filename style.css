@@ -340,34 +340,178 @@ ul{
     border-radius: 20px;
 }
 
+.row-p-3{
+    display:flex;
+
+}
+
+.row-p-1{
+    background-image:url(./assets/airpods.jpeg);
+    height: 600px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.row-p-2{
+    background-image: url(./assets/iphones.jpeg);
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row-p-1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-p-1-text > p{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.row-p-1-text > .btn{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(5, 180, 250);
+    font-size: large;
+    border-radius: 20px;
+}
+
+.row-p-2-text{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-p-2-text > span{
+    color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.row-p-2-text > .btn{
+    padding: 10px 15px;
+    color: white;
+    background-color:rgb(5, 180, 250);
+    font-size: large;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.fear-pic{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fear-pic-1{
+    background-image: url(./assets/688x368sr.jpg);
+    height: 400px;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.fear-pic-text > h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4em;
+}
+
+.pic-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic-row-1{
+    background-image: url(./assets/img3.jpeg);
+    height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-row-2{
+    background-image: url(./assets/img1.jpeg);
+    height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic-row-3{
+    background-image: url(./assets/img2.jpeg);
+    height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    width: 100%;
+    padding: 0 22px;
+    max-width: 980px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.text > span{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
 
 
 
+.footer-list{
+    color: black;
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
 
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: sans-serif;
+    width: 980px;
+    margin: 40px auto;
+}
 
+.list-1, .list-2, .list-3, .list-4, .list-5{
+     width:196px;
+}
 
+h3{
+    font-size: small;
+}
 
+.footer-list > li{
+    font-size: small;
+    color: rgb(63, 63, 63);
+    margin-bottom: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon-1{
+    display: none;
+}
