@@ -40,7 +40,7 @@ ul{
     display: flex;
     justify-content:center;
     align-items: flex-end;
-    /* border-bottom: 3px solid white; */
+    
     
 
 }
@@ -187,6 +187,7 @@ ul{
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .row-pic-2{
@@ -195,6 +196,7 @@ ul{
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .row-pic-1-text{
@@ -258,6 +260,7 @@ ul{
     justify-content: center;
     margin-top: 5px;
     gap: 5px;
+    
 }
 
 .row-child-1{
@@ -266,6 +269,7 @@ ul{
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -275,6 +279,7 @@ ul{
     width:50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .row-child-1-text{
@@ -287,8 +292,14 @@ ul{
     font-family: sans-serif;
 }
 
+.row-child-1-text > p{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
 .row-child-1-text > img{
-    width: 50%;
+    width: 70%;
 }
 
 .row-child-1-text > p{
@@ -322,6 +333,7 @@ ul{
 .row-child-2-text > p{
     font-size: 1.5em;
     font-family: sans-serif;
+    margin: 0px 0px 5px 0px;
 }
 
 .row-child-2-btn > .btn-1{
@@ -351,6 +363,7 @@ ul{
     width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -360,6 +373,7 @@ ul{
     width: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .row-p-1-text{
@@ -373,6 +387,9 @@ ul{
     font-size: 1.5em;
     font-weight: 500;
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
 }
 
 .row-p-1-text > .btn{
@@ -434,7 +451,7 @@ ul{
 .pic-row{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
 .pic-row-1{
@@ -514,4 +531,31 @@ h3{
 
 .icon-1{
     display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .li-text{
+        display: none;
+    }
+
+    .icon-1{
+        display: block;
+    }
+
+    .footer-list{
+        display: none;
+    }
+
+    .list{
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+   
+    .pic-row-1, .pic-row-2, .pic-row-3{
+        background-size: contain;
+    }
+
+
 }
