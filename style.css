@@ -40,6 +40,7 @@ ul{
     display: flex;
     justify-content:center;
     align-items: flex-end;
+    border-bottom: 5px solid white;
     
     
 
@@ -73,6 +74,7 @@ ul{
     border-radius: 20px;
     font-weight: 400;
 }
+
 
 .pic-2{
     background-image: url(./assets/iphone17.jpeg);
@@ -299,7 +301,7 @@ ul{
 }
 
 .row-child-1-text > img{
-    width: 70%;
+    width: 80%;
 }
 
 .row-child-1-text > p{
@@ -328,6 +330,7 @@ ul{
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    text-align: center;
 }
 
 .row-child-2-text > p{
@@ -354,6 +357,7 @@ ul{
 
 .row-p-3{
     display:flex;
+    gap: 5px;
 
 }
 
@@ -364,6 +368,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 5px;
 
 }
 
@@ -374,6 +379,7 @@ ul{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 5px;
 }
 
 .row-p-1-text{
@@ -437,9 +443,6 @@ ul{
     width: 80%;
     background-size: cover;
     background-position: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
 }
 
 .fear-pic-text > h1{
@@ -482,7 +485,7 @@ ul{
 }
 
 .text{
-    width: 100%;
+    
     padding: 0 22px;
     max-width: 980px;
     margin: auto;
@@ -556,6 +559,120 @@ h3{
     .pic-row-1, .pic-row-2, .pic-row-3{
         background-size: contain;
     }
+}
 
+@media screen and (max-width: 425px) {
+
+      .pic-1{
+        height: 500px;
+      }
+
+      .pic-1-text{
+        margin: 15px;
+      }
+
+      .pic-2, .pic-2{
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+
+     .pic-2-text, .pic-3-text{
+        padding-top: 40px;
+    }
+
+    .pic-2-text >h1, .pic-3-text >h1 {
+        font-size: 2.2em;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .pic-2-text >p, .pic-3-text >p{
+        font-size: 1.2em;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .pic-1-text >button, .pic-2-text >button, .pic-3-text > button{
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .row-pic{
+        flex-direction: column;
+    }
+
+    .row-pic-1{
+        width: 100%;
+    }
+
+    .row-pic-1-text >h1{
+        margin-bottom: 0px;
+        font-size: 2em;
+
+    }
+
+    .row-pic-1-text > p{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .row-pic-2{
+        width: 100%;
+    }
+
+    .row-picture-2{
+        flex-direction: column;
+    }
+
+    .row-pic-2-text >h1{
+        font-size: 2em;
+    }
+
+    .row-child-1{
+        width: 100%;
+    }
+
+    .row-child-2{
+        width: 100%;
+    }
+
+    .row-p-3{
+        flex-direction: column;
+    }
+
+    .row-p-1{
+        width: 100%;
+    }
+
+    .row-p-1-text >img{
+        width: 150px;
+    }
+
+    .row-p-2{
+        width: 100%;
+    }
+
+    .row-p-2-text >img{
+        width: 180px;
+    }
+
+    .fear-pic-text > h1{
+        font-size: xx-large;
+    }
+
+    .fear-pic-1{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+
+    .fear-pic{
+        height: 300px;
+    }
+
+    .pic-row-1, .pic-row-2, .pic-row-3{
+        height: 200px;
+    }
 
 }
