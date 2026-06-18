@@ -519,7 +519,7 @@ ul{
 }
 
 .list-1, .list-2, .list-3, .list-4, .list-5{
-     width:196px;
+     width:100%;
 }
 
 h3{
@@ -530,6 +530,10 @@ h3{
     font-size: small;
     color: rgb(63, 63, 63);
     margin-bottom: 5px;
+}
+
+.line{
+    display: none;
 }
 
 .icon-1{
@@ -558,6 +562,11 @@ h3{
    
     .pic-row-1, .pic-row-2, .pic-row-3{
         background-size: contain;
+    }
+
+    .line{
+        display: block;
+        width: 100%;
     }
 }
 
@@ -674,5 +683,6 @@ h3{
     .pic-row-1, .pic-row-2, .pic-row-3{
         height: 200px;
     }
+
 
 }
